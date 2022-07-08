@@ -12,7 +12,7 @@
     let compteur =0;
 
 
-    for (const img of elmGalerieImg){
+    for(const img of elmGalerieImg){
         img.dataset.index=compteur++
         ajouter_elmImg(img)
         ajouter_elmRadio()
